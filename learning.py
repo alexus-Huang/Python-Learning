@@ -1,6 +1,7 @@
 # Functions
-def add_three(input_var,second_var):
+def add_three(input_var):
     output_var=input_var+3
-    return output_var,second_var
+    return output_var
 
-print(add_three(3,5))
+new_number = add_three(3)
+print(new_number)
