@@ -1,1 +1,1 @@
-# Python-Learning
+# This repository contains learning.py where I show my progress of learning
