@@ -5,3 +5,9 @@ def add_three(input_var):
 
 new_number = add_three(3)
 print(new_number)
+
+# My own function
+def sayHello():
+    return "Hello"
+
+print(sayHello())
