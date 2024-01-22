@@ -11,3 +11,11 @@ def sayHello():
     return "Hello"
 
 print(sayHello())
+
+
+#-------------------------------
+# Using math.ceil()
+import math
+a_number=1
+rounded_value=math.ceil(a_number)
+print("Rounded number is", rounded_value)
