@@ -32,3 +32,21 @@
 # roundNumber =5.147632
 # rounded = round(roundNumber,3)
 # print(rounded)
+
+# condition =not False
+# print(condition)
+# print(type(condition))
+
+# word = "stuff"
+# print(word)
+# print(len(word)) # calculates the length of the word
+
+# converting a string into a float
+# new_Number="10.53"
+# floated_Number=float(new_Number)
+# print(floated_Number)
+
+
+# Multiplying a string by an integer
+a_string= "abc" *2
+print(a_string)
