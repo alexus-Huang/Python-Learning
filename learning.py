@@ -24,3 +24,7 @@ rounded_value=math.ceil(a_number)
 number = 10
 print(number)
 print(type(number))
+
+floatingNumber =10.1
+print(floatingNumber)
+print(type(floatingNumber))
