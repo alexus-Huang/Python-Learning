@@ -4,13 +4,13 @@ def add_three(input_var):
     return output_var
 
 new_number = add_three(3)
-print(new_number)
+# print(new_number)
 
 # My own function
 def sayHello():
     return "Hello"
 
-print(sayHello())
+# print(sayHello())
 
 
 #-------------------------------
@@ -18,4 +18,9 @@ print(sayHello())
 import math
 a_number=1.1
 rounded_value=math.ceil(a_number)
-print("Rounded number is", rounded_value)
+# print("Rounded number is", rounded_value)
+
+# Data types
+number = 10
+print(number)
+print(type(number))
