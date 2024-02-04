@@ -51,13 +51,20 @@
 # a_string= "abc" *2
 # print(a_string)
 
-def evaluate_number(numb):
-    if numb >= 20:
-        message = "number is greater than 20"
-    elif numb >= 10:
-        message = "number is greater than 10"
-    else:
-        message = "Number is greater than or equal to 0"
-    return message
+# def evaluate_number(numb):
+#     if numb >= 20:
+#         message = "number is greater than 20"
+#     elif numb >= 10:
+#         message = "number is greater than 10"
+#     else:
+#         message = "Number is greater than or equal to 0"
+#     return message
 
-print(evaluate_number(21))
+# print(evaluate_number(21))
+
+# Intro to Lists
+
+
+my_list = ["car","tires","wheel"];
+print(type(my_list))
+print(my_list)
