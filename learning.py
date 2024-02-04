@@ -64,6 +64,9 @@
 
 # Intro to Lists
 
-
-my_list = ["car","tires","wheel"]
-print("First list entry:", my_list[1])
+new_addition = "rims"
+remove_feature = "tires"
+my_list = ["car","tires","wheel","seat","driver","passenger"]
+print("First list entries:", my_list[:3])
+my_list.remove(remove_feature)
+print("First list entries:", my_list[:3])
