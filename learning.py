@@ -65,6 +65,6 @@
 # Intro to Lists
 
 
-my_list = ["car","tires","wheel"];
+my_list = ["car","tires","wheel"]
 print(type(my_list))
-print(my_list)
+print(len(my_list))
