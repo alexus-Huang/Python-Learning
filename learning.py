@@ -66,5 +66,4 @@
 
 
 my_list = ["car","tires","wheel"]
-print(type(my_list))
-print(len(my_list))
+print("First list entry:", my_list[1])
