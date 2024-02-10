@@ -71,12 +71,13 @@
 # avg = sum(number_list[2])/2
 # print(avg)
 
-a_number = 5.14562
-def a_test():
-    """
-    A test function
-    """
-    a_letter = "a"
-    return a_letter
+# def a_test():
+#     """
+#     A test function
+#     """
+#     a_letter = "a"
+#     return a_letter
 
-help(a_test)
+# help(a_test)
+
+print("a","b","c",sep=" > ")
