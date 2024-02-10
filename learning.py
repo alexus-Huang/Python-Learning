@@ -64,9 +64,19 @@
 
 # Intro to Lists
 
-new_addition = "rims"
-remove_feature = "tires"
-my_list = ["car","tires","wheel","seat","driver","passenger"]
-print("First list entries:", my_list[:3])
-my_list.remove(remove_feature)
-print("First list entries:", my_list[:3])
+# number_list= [1,2,3,4,5,6,7,8,9,10]
+# print("Max:", max(number_list))
+# print("Min:", min(number_list))
+# print("Sum:", sum(number_list))
+# avg = sum(number_list[2])/2
+# print(avg)
+
+a_number = 5.14562
+def a_test():
+    """
+    A test function
+    """
+    a_letter = "a"
+    return a_letter
+
+help(a_test)
