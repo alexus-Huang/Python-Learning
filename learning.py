@@ -80,4 +80,10 @@
 
 # help(a_test)
 
-print("a","b","c",sep=" > ")
+# print("a","b","c",sep=" > ")
+
+def say_hello(person="Calvin"):
+    print("Hello,", person)
+
+say_hello()
+say_hello("world")
