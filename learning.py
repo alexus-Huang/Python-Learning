@@ -82,8 +82,16 @@
 
 # print("a","b","c",sep=" > ")
 
-def say_hello(person="Calvin"):
-    print("Hello,", person)
+# def say_hello(person="Calvin"):
+#     print("Hello,", person)
 
-say_hello()
-say_hello("world")
+# say_hello()
+# say_hello("world")
+
+def can_get_license(age,no_criminal_history):
+    return not no_criminal_history and (age>15.5)
+
+print(can_get_license(14, False))
+print(can_get_license(20, False))
+print(can_get_license(16, False))
+print(can_get_license(16, True))
