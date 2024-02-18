@@ -25,4 +25,4 @@ print(max(2,5,3))
 #abs function - stands for absolute
 
 print(abs(-32))
-print("test")
+print("tes")
