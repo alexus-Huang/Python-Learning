@@ -23,7 +23,6 @@ else:
 
 
 # Use the print() function and take the bool() function as an argument and input integers and strings to see the output
-    
 print(bool("Word"))
 print(bool(0))
 print(bool(1))
