@@ -3,4 +3,4 @@
 - use the sep argument in the print() function
 - define your own function
 - Add a description to your function
-- use the help() function and put in your function name as the argument
+- use the help() function and put it in your function name as the argument
