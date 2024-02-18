@@ -1,5 +1,5 @@
 - Assign 2 variables 2 possible values of bool
 - define a function that uses booleans to return an answer
-    - In your function, combine boolean values (and, or, not)
+- In your function, combine boolean values (and, or, not)
 - Write a conditional statement
 - use the print() function and take the bool() function as an argument and input integers and strings to see the output
