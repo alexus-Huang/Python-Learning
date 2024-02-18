@@ -8,3 +8,8 @@
 - Assign a variable to a string that is multiplied by 3
 
 - Print out the type of variable for any of the assigned variables above
+- Use the print function to show basic arithmetic skills
+
+- Use the min and max function when its given: 32154,111,4422,7354,1234,31254,5312,32140
+
+- Use the abs function
