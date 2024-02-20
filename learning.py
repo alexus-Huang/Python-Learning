@@ -29,7 +29,6 @@ print(abs(-32))
 
 # Lists
 cars=["BMW","Nissan","Toyota","Ford","Tesla","Lucid"]
+cars.append("Hummer")
 print(cars)
-#renaming Nissan to something else
-cars[1]="Nissan GTR"
-print(cars)
+
