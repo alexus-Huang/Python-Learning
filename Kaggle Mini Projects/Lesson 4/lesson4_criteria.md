@@ -1,0 +1,14 @@
+- Create a list that has 5 elements
+- Find the second element 
+- Find the last element 
+- Find the first 2 elements 
+- Find every element after the first 2 elements
+- Find the last 2 elements
+- Change the first element to a number
+- Find the length of the list
+- Add a new item to the end of the list
+- Add a new item to the start of the list
+- Remove the last item of the list
+- Find the index of the second element
+- Determine whether an element is in the list
+- Create a tuple
