@@ -25,3 +25,8 @@ print(max(2,5,3))
 #abs function - stands for absolute
 
 print(abs(-32))
+
+
+# Lists
+cars=["BMW","Nissan","Toyota","Ford","Tesla","Lucid"]
+print(cars[2:4])
