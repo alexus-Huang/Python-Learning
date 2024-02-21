@@ -35,6 +35,11 @@
 
 
 # Tuples
-test=[1,2,3,4,5,]
-test.insert(0,100)
-print(test)
+# test=[1,2,3,4,5,]
+# test.insert(0,100)
+# print(test)
+
+# for loops
+planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
+for every_planet in planets:
+    print(every_planet)
