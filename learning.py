@@ -40,6 +40,21 @@
 # print(test)
 
 # for loops
-planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
-for every_planet in planets:
-    print(every_planet)
+# planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
+# for every_planet in planets:
+#     print(every_planet,end=" ")
+
+# range() function
+# for i in range(3):
+#     print(i+1)
+
+# while loops
+# i=0
+# while (i<10):
+#     i+=1
+#     print(i)
+
+# List comprehension
+negative_numbers=[5, -1, -2, 0, 3]
+how_many_neg_numbers=[neg_num for neg_num in negative_numbers if neg_num<0]
+print(how_many_neg_numbers)
