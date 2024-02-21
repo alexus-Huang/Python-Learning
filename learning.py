@@ -55,6 +55,13 @@
 #     print(i)
 
 # List comprehension
-negative_numbers=[5, -1, -2, 0, 3]
-how_many_neg_numbers=[neg_num for neg_num in negative_numbers if neg_num<0]
-print(how_many_neg_numbers)
+# negative_numbers=[5, -1, -2, 0, 3]
+# how_many_neg_numbers=[neg_num for neg_num in negative_numbers if neg_num<0]
+# print(how_many_neg_numbers)
+
+
+# strings and dictionaries
+triplequoted_hello = """hello
+world
+test"""
+print(triplequoted_hello)
