@@ -1,0 +1,5 @@
+- Use the for loop
+- Use the range() function
+- Use the while loop
+- Use a list comprehension
+- Use a list comprehension which uses a conditional statement
