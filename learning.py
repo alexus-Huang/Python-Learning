@@ -1,2 +1,2 @@
-from math import log,pi
-print(log(32,2))
+test = input("What is your name?")
+print(test)
