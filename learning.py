@@ -1,5 +1,4 @@
-feeling=input("How are you feeling today? ")
-if not(feeling.lower() == "great"):
-    print("Oh no")
-else:
-    print("You are feeling {}".format(feeling))
+number = 0
+while number<101:
+    print(number)
+    number+=1
