@@ -1,6 +1,6 @@
-full_name="John Doe"
-first_name=full_name[:4]
-last_name=full_name[5:]
-wierd_name=full_name[::2]
-reversed_name=full_name[::-1]
-print(reversed_name)
+feeling=input("How are you feeling today?")
+any_trouble=input("Did any trouble happen?")
+if feeling.lower() == "great" and any_trouble.lower() == "no":
+    print ("You are feeling {} today".format(feeling.lower()))
+else:
+    print("Oh no")
