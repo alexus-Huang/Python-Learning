@@ -1,4 +1,2 @@
-seconds = 60
-for i in range(seconds):
-    seconds-=1
-    print(seconds)
+for i in range(0,20,2):
+    print(i)
