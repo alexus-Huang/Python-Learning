@@ -1,8 +1,5 @@
-rows = int(input("How many rows:"))
-columns = int(input("How many columns:"))
-symbol=input("Enter a symbol:")
-
-for i in range(rows):
-    for j in range (columns):
-        print(symbol,end="")
-    print()
+#break - used to stop the loop
+while True:
+    name=input("Enter your name:")
+    if name !="":
+        break
