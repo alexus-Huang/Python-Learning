@@ -1,5 +1,4 @@
 # str.format()
 
-
-text= "Hello {first_name:50} {last_name}"
-print(text.format(first_name="John",last_name="Doe"))
+pi_number = 3.1459
+print("Pi is {:.3f}".format(pi_number))
