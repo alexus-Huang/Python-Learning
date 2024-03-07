@@ -1,7 +1,7 @@
-# **kwargs
+# str.format()
 
-def hello(**kwargs):
-    for key,value in kwargs.items():
-        print(value,end="")
+first_name = "John"
+last_name = "Doe"
+middle_name = "L"
 
-hello(first="John",last="Doe")
+print("Hello {1} {2} {0}".format(first_name,last_name,middle_name))
