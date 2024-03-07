@@ -1,7 +1,7 @@
-#  index operator practice
+# functions
 
-name = "john doe"
-first_name=name[0:4].capitalize()
-last_name=name[5:]
+def hello():
+    print("Hello")
 
-print(last_name)
+hello()
+hello()
