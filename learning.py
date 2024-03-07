@@ -1,9 +1,7 @@
-# *args
+# **kwargs
 
-def add(*all_numbers):
-    sum = 0
-    for i in all_numbers:
-        sum+=i
-    print(sum)
+def hello(**kwargs):
+    for key,value in kwargs.items():
+        print(value,end="")
 
-add(1,2,3,4,5,6)
+hello(first="John",last="Doe")
