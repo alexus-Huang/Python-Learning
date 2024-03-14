@@ -1,2 +1,4 @@
-filename = "python_notes.txt"
-print(filename.removesuffix(".txt"))
+x,y,z=0,1,2
+print(x)
+print(y)
+print(z)
