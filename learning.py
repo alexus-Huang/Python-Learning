@@ -1,4 +1,2 @@
-x,y,z=0,1,2
-print(x)
-print(y)
-print(z)
+MAX_NUMBER = 100
+print(MAX_NUMBER)
