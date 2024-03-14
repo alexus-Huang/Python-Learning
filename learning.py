@@ -1,2 +1,2 @@
-MAX_NUMBER = 100
-print(MAX_NUMBER)
+FAVORITE_NUMBER = 14
+print(f"Favorite number: {FAVORITE_NUMBER}")
