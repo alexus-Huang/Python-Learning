@@ -1,3 +1,2 @@
-user_input= input("Enter in a URL:")
-print(user_input.removeprefix("https://"))
-print(user_input.removesuffix(".com"))
+filename = "python_notes.txt"
+print(filename.removesuffix(".txt"))
