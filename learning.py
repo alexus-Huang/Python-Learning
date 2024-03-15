@@ -1,4 +1,4 @@
 # list
 
-numbers=[1,2,3,4,5,6]
-print(numbers[0])
+people=["john","Jake","Jack"]
+print(people[0].title())
