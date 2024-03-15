@@ -1,4 +1,5 @@
 # list
 
-people=["john","Jake","Jack"]
-print(people[0].title())
+people=["john","jake","jack"]
+hello = f"Hello {people[-1].title()}"
+print(hello)
