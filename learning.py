@@ -1,6 +1,6 @@
 # list
 
-people=["john","jake","jack"]
-print(people)
-people[0]="bob"
-print(people)
+empty_list=[]
+empty_list.append("John")
+empty_list.append("Josh")
+print(empty_list)
