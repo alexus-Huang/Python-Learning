@@ -1,5 +1,3 @@
-# list
-
-names=["jack","john","jack"]
-names.insert(0,"bob")
+names=["John","Jack","bob"]
+del names[-1]
 print(names)
