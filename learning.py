@@ -12,7 +12,25 @@ print(f"This is the guest list: {guest_list[0]}, {guest_list[1]}, {guest_list[2]
 
 # 3.6 - More Guests
 print("Looks like we found a bigger table\n")
-guest_list.insert(0,"Pheobe")
-guest_list.insert(2,"Scott")
-guest_list.append("Jesse")
-print(f"This is the guest list: {guest_list[0]}, {guest_list[1]}, {guest_list[2]}, {guest_list[3]}, {guest_list[4]}, {guest_list[5]}, {guest_list[6]}, {guest_list[7]}")
+guest_list.insert(0,"Pheobe") # add a new person to the start of the list 
+guest_list.insert(2,"Scott") # add a new person into the middle of the list
+guest_list.append("Jesse") # add a new perosn to the end of the list
+print(f"This is the guest list: {guest_list[0]}, {guest_list[1]}, {guest_list[2]}, {guest_list[3]}, {guest_list[4]}, {guest_list[5]}, {guest_list[6]}, {guest_list[7]}")  # Print the new list
+
+
+# 3.7 - Shrinking Guest List
+print("Only 2 people can come to the party")
+print(f"Sorry {guest_list.pop()}, you can't come")
+print(f"Sorry {guest_list.pop()}, you can't come")
+print(f"Sorry {guest_list.pop()}, you can't come")
+print(f"Sorry {guest_list.pop()}, you can't come")
+print(f"Sorry {guest_list.pop()}, you can't come")
+print(f"Sorry {guest_list.pop()}, you can't come")
+
+# Announce the 2 people that are allowed to come to the party
+print(f"These 2 people are allowed to come to the party: {guest_list[0]}, {guest_list[1]}")
+print(guest_list)
+# Print an empty list
+print(f"{guest_list.pop()} was removed from the invitation list")
+print(f"{guest_list.pop()} was removed from the invitation list")
+print(guest_list)
