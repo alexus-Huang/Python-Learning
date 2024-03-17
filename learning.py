@@ -1,3 +1,5 @@
 food =["banana","cranberry","kiwi","pineapple","lettuce","celery","apple"]
-food.sort(reverse=True)
-print(food)
+
+print(f"Here is the original list: {food}")
+print(f"Here is the sorted list: {sorted(food)}")
+print(f"Here is the original list again: {food}")
