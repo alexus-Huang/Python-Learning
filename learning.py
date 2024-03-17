@@ -1,3 +1,4 @@
-names = ["bob","john","jack"]
+names = ["bob","john","jack","calvin","david"]
 for name in names:
-    print(name)
+    print(f"Hello {name.title()}")
+print("Thats all the names!")
