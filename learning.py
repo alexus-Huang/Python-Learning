@@ -24,3 +24,8 @@ threes=[]
 for odd in range(3,30,3):
     threes.append(odd)
 print(threes)
+
+
+#4-8. Cubes
+cubes=[cube**3 for cube in range(1,10)]
+print(cubes)
