@@ -5,3 +5,8 @@ for number in range(1,21):
 #4-4. One Million
 numbers=[each_number for each_number in range(1,1000001)]
 print(numbers)
+
+#4-5. Summing a Million
+print(min(numbers))
+print(max(numbers))
+print(sum(numbers))
