@@ -17,3 +17,10 @@ odd_number_list=[]
 for odd_numbers in range(1,20,3):
     odd_number_list.append(odd_numbers)
 print(odd_number_list)
+
+
+#4-7. Threes
+threes=[]
+for odd in range(3,30,3):
+    threes.append(odd)
+print(threes)
