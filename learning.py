@@ -1,9 +1,11 @@
-# 4-13. Buffet
-simple_foods=("pizza","burger","ice cream","hot dog","salad")
-print("These are the basic foods served at this buffet:")
-for each_food in simple_foods:
-    print(each_food.title())
-menu_change=("new food item 1","new food item 2","burger","ice cream","hot dog","salad")
-print("\nThese are the new food items on the menu:")
-for new_food in menu_change:
-    print(new_food.title())
+conditions = [True,False,False,True,True]
+true_counter = 0
+false_counter = 0
+for each_condition in conditions:
+    if each_condition == True:
+        true_counter+=1
+    else:
+        false_counter+=1
+
+print(true_counter)
+print(false_counter)
