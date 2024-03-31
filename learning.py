@@ -1,7 +1,3 @@
-#5-1. Conditional Tests
-name = "John"
-age = 11
-if name == "John" and age == 16:
-    print("It's John")
-else:
-    print("Not John")
+#5-2. More Conditonal Tests
+names = ["John","Jake","Bob"]
+print("Bob" not in names)
