@@ -1,11 +1,6 @@
-conditions = [True,False,False,True,True]
-true_counter = 0
-false_counter = 0
-for each_condition in conditions:
-    if each_condition == True:
-        true_counter+=1
-    else:
-        false_counter+=1
+name = "Jake"
 
-print(true_counter)
-print(false_counter)
+if name.lower() != "jake":
+    print("Not Jake")
+else:
+    print("It's Jake")
