@@ -1,6 +1,6 @@
 name = "Jake"
-
-if name.lower() != "jake":
-    print("Not Jake")
+age = 18
+if name.lower() == "bob" or age >= 20:
+    print(True)
 else:
-    print("It's Jake")
+    print(False)
