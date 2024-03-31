@@ -1,6 +1,7 @@
-name = "Jake"
-age = 18
-if name.lower() == "bob" or age >= 20:
-    print(True)
+#5-1. Conditional Tests
+name = "John"
+age = 11
+if name == "John" and age == 16:
+    print("It's John")
 else:
-    print(False)
+    print("Not John")
