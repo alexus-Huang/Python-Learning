@@ -1,15 +1,9 @@
-#5-6. Stages of Life
-age = 2
+#5-7. Favorite Fruit
+favorite_fruits = ["Apples","Bananas","Oranges"]
 
-if age <2:
-    print("You're a baby")
-elif age <4:
-    print("Toddler")
-elif age <13:
-    print("Kid")
-elif age <20:
-    print("Teenager")
-elif age <65:
-    print("Adult")
-elif age >= 65:
-    print("Elder")
+if "Apples" in favorite_fruits:
+    print("You really like apples!")
+if "Oranges" in favorite_fruits:
+    print("You really like oranges!")
+if "Grapes" in favorite_fruits:
+    print("You really like grapes!")
