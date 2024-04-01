@@ -1,10 +1,8 @@
-toppings = ["veggies","meat","onions"]
+# 5-3. Alien Colors #1
+alien_color1 = "green"
+if alien_color1 == "green":
+    print("You just earned 5 points")
 
-if "veggies" in toppings:
-    print("Adding veggies")
-if "meat" in toppings:
-    print("Adding meat")
-if "cheese" in toppings:
-    print("Adding cheese")
-
-print("\n Done with the pizza")
+alien_color2 = "red"
+if alien_color2 == "green":
+    print("You just earned 5 points")
