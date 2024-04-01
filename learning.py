@@ -1,8 +1,14 @@
-# 5-3. Alien Colors #1
-alien_color1 = "green"
-if alien_color1 == "green":
-    print("You just earned 5 points")
+#5-4. Alien Colors #2
+alien1_color = "green"
+if alien1_color == "green":
+    print("5 points for shooting a green alien!")
+else:
+    print("10 points!")
 
-alien_color2 = "red"
-if alien_color2 == "green":
-    print("You just earned 5 points")
+print("\nSecond verson of the program:")
+alien2_color = "red"
+if alien2_color == "green":
+    print("5 points for shooting a green alien!")
+else:
+    print("10 points!")
+
