@@ -1,9 +1,9 @@
-#5-7. Favorite Fruit
-favorite_fruits = ["Apples","Bananas","Oranges"]
-
-if "Apples" in favorite_fruits:
-    print("You really like apples!")
-if "Oranges" in favorite_fruits:
-    print("You really like oranges!")
-if "Grapes" in favorite_fruits:
-    print("You really like grapes!")
+toppings = []
+if toppings:
+    for every_topping in toppings:
+        if every_topping =="cheese":
+            print("No cheese at the moment")
+        else:
+            print(f"Adding {every_topping.title()}")
+else:
+    print("Do you really want a plain pizza?")
