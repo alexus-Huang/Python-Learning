@@ -17,12 +17,15 @@ usernames =[]
 #     print("We need some users!")
 
 #5-10. Checking Usernames
-current_users = ["john","jake","BOB","steve","tristan","j"]
+current_users = ["john","jake","BOB","steve","tristan","J"]
 new_users = ["Steve","bob","ashly","leila","moran","j"]
 lowerCased=[word.lower() for word in current_users]
+matched_names=[]
 print(lowerCased)
 for every_new_user in new_users:
     if every_new_user.lower() in lowerCased:
         print(f"Matched name: {every_new_user.lower()}")
+        matched_names.append(every_new_user.lower())
     else:
         print(f"This name isn't repeated: {every_new_user.lower()}")
+print(f"\nAll matched names: {matched_names}")
