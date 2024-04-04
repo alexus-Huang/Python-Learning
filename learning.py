@@ -1,5 +1,4 @@
-alien0={"color":"blue","width":500,"score":10}
-if alien0["color"] == "blue":
-    print(f"You just earned {alien0['score']} points!")
-else:
-    print(f"You earned 0 points")
+car={"x_position":0,"y_pos":25,"brand":"BMW","speed":"slows"}
+print(car)
+del car["brand"]
+print(car)
