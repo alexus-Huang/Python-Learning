@@ -1,8 +1,13 @@
-rivers={
-    "nile":"egypt",
+language_poll_takers={
+    "john":"english",
+    "bob":"spanish",
+    "david":"english"
 }
-for river_name in rivers:
-    print(f"River name: {river_name.title()}")
 
-for river_location in rivers.values():
-    print(f"River location: {river_location.title()}")
+should_take_poll=["john","jack","bob","david"]
+
+for needed_takers in should_take_poll:
+    if needed_takers in language_poll_takers.keys():
+        print(f"{needed_takers} has taken the poll")
+    else:
+        print(f"{needed_takers} still hasn't taken the poll")
