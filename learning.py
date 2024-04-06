@@ -1,10 +1,8 @@
-drivers_cars = {
-    "john":"BMW",
-    "jack":"ford",
-    "bob":"BMW",
-    "tristan":"ford"
+rivers={
+    "nile":"egypt",
 }
+for river_name in rivers:
+    print(f"River name: {river_name.title()}")
 
-friends = ["john","bob"]
-for name in sorted(drivers_cars.values()):
-    print(f"{name.title()}")
+for river_location in rivers.values():
+    print(f"River location: {river_location.title()}")
