@@ -1,13 +1,7 @@
-language_poll_takers={
-    "john":"english",
-    "bob":"spanish",
-    "david":"english"
-}
+alien1 = {"color":"green","points":5}
+alien2 = {"color":"blue","points":10}
+alien3= {"color":"red","points":15}
 
-should_take_poll=["john","jack","bob","david"]
-
-for needed_takers in should_take_poll:
-    if needed_takers in language_poll_takers.keys():
-        print(f"{needed_takers} has taken the poll")
-    else:
-        print(f"{needed_takers} still hasn't taken the poll")
+aliens=[alien1,alien2,alien3]
+for alien in aliens:
+    print(alien)
