@@ -5,5 +5,6 @@ drivers_cars = {
     "tristan":"ford"
 }
 
-for name in drivers_cars.keys():
-    print(f"Names of everyone in the dictionary: {name.title()}")
+friends = ["john","bob"]
+for name in sorted(drivers_cars.values()):
+    print(f"{name.title()}")
