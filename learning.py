@@ -1,7 +1,4 @@
-#6-9. Favorite Places
-favorite_places = {
-    "jack":"Japan",
-    "john":"Tokyo"
-}
-for every_name,every_place in favorite_places.items():
-    print(f"{every_name.title()} wants to go to {every_place}")
+#6-10. Favorite Numbers
+fav_numbers = {"john":5,"jack":4,"bob":4}
+john_favNum = fav_numbers.get("john","John wasn't assigned a value")
+print(john_favNum)
