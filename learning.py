@@ -1,12 +1,9 @@
-# While loops
-prompt = "Type in a word that you want to repeat\nEnter 'quit' to end the program: "
-message = ""
+prompt = "Type out the letter f to continue: "
+active = True
 
-while message != "quit":
+while active:
     message = input(prompt)
-    if message != "quit":
-        print(message)
+    if message != "f":
+        active = False
     else:
-        print(f"Program is quitting because you entered {message}")
-
-
+        continue
