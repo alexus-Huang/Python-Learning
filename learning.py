@@ -35,12 +35,17 @@
 #         print(f"\nI'll add {user_toppings} to your pizza!")
 
         
-# Verson 2 - Use an active variable to control how long the loop runs  + V3 - Use a break statement to exit the loop when the user enters a 'quit' value
-my_toppings_prompt = "Enter in your pizza toppings \n(Enter quit when you're done): "
-active = True
-while active:
-    user_toppings = input(my_toppings_prompt)
-    if user_toppings == "quit":
-        active = False
-    else:
-        print(f"\nI'll add {user_toppings} to your pizza!")
+# # Verson 2 - Use an active variable to control how long the loop runs  + V3 - Use a break statement to exit the loop when the user enters a 'quit' value
+# my_toppings_prompt = "Enter in your pizza toppings \n(Enter quit when you're done): "
+# active = True
+# while active:
+#     user_toppings = input(my_toppings_prompt)
+#     if user_toppings == "quit":
+#         active = False
+#     else:
+#         print(f"\nI'll add {user_toppings} to your pizza!")
+
+
+#7-7. Infinity
+while True:
+    print(1)
