@@ -1,8 +1,8 @@
-odd_numbers = []
-current_numbers = 0
-while current_numbers < 10:
-    current_numbers+=1
-    if current_numbers % 2 == 0:
-        continue
-    odd_numbers.append(current_numbers)
-print(odd_numbers)
+#7-4. Pizza Toppings
+my_toppings_prompt = "Enter in your pizza toppings \n(Enter quit when you're done): "
+while True:
+    user_toppings = input(my_toppings_prompt)
+    if user_toppings == "quit":
+        break
+    else:
+        print(f"\nI'll add {user_toppings} to your pizza!")
