@@ -1,5 +1,14 @@
-names = ["john","john","john","jack","bob","mason","jayce"]
-while "john" in names:
-    names.remove("john")
+#7-8. Deli
+sandwich_orders = ["Turkey Sandwich","Ham Sandwich","Chicken Sandwich","Icecream Sandwich"]
+finished_sandwiches = []
 
-print(names)
+while sandwich_orders:
+    finished_sandwich = sandwich_orders.pop()
+    finished_sandwiches.append(finished_sandwich)
+
+    print(f"Finished with {finished_sandwich}")
+
+print(f"\nHere are your sandwiches:")
+for each_sandwich in finished_sandwiches:
+    print(f"\n{each_sandwich}")
+    
