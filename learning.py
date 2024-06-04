@@ -1,17 +1,10 @@
-new_users = ["john","joe","dave"]
-registered_users = []
+#8-9. Messages
+short_text_msgs = ["hello","hi","a messaage"]
+printed_text_msgs = []
+def show_messages(text_msgs):
+    while text_msgs:
+        show_text_msgs = text_msgs.pop()
+        print(f"{show_text_msgs}")
+        printed_text_msgs.append(show_text_msgs)
 
-def register_ppl(new_users,registered_users):
-    while new_users:
-        registering_users = new_users.pop()
-        print(f"Registering {registering_users.title()}")
-        registered_users.append(registering_users)
-
-def show_registered_ppl(registered_users):
-    for every_user in registered_users:
-        print(f"\nRegistered {every_user.title()}")
-
-
-register_ppl(new_users[:],registered_users)
-show_registered_ppl(registered_users)
-print(new_users)
+show_messages(short_text_msgs)
