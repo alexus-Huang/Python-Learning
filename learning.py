@@ -1,7 +1,6 @@
-def make_shirt(size="large",message="Python"):
-    print(f"\nYour shirt size is {size}")
-    print(f"The messaage being printed is {message}")
+def city_country(city,country):
+    full_location = f"{city},{country}"
+    return full_location
 
-make_shirt()
-make_shirt("medium")
-make_shirt("small","JS")
+first_location = city_country("Fremont","USA")
+print(first_location)
