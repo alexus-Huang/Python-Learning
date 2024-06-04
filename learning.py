@@ -1,19 +1,17 @@
-def make_album(artist_name, album_title,songs=None):
-    album = {"artist_name": artist_name, "album_title":album_title}
-    if songs:
-        album["songs"] = songs
-    return album
+new_users = ["john","joe","dave"]
+registered_users = []
 
-while True:
-    print(f"\nTo quit at anytime, enter 'q'")
-    album_artist_name = input("What is the artist's name?")
-    if album_artist_name == "q":
-        break
-    album_title = input("What is the album's title?")
-    if album_title == "q":
-        break
-    album_songs = input("How many songs are there in this album?")
-    if album_songs == "q":
-        break
-    new_album= make_album(album_artist_name,album_title,album_songs)
-    print(new_album)
+def register_ppl(new_users,registered_users):
+    while new_users:
+        registering_users = new_users.pop()
+        print(f"Registering {registering_users.title()}")
+        registered_users.append(registering_users)
+
+def show_registered_ppl(registered_users):
+    for every_user in registered_users:
+        print(f"\nRegistered {every_user.title()}")
+
+
+register_ppl(new_users[:],registered_users)
+show_registered_ppl(registered_users)
+print(new_users)
