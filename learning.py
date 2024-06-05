@@ -1,7 +1,8 @@
-#8-12. Sandwiches
-def build_sandwich(*toppings):
-    print(f"Here is what you want on your toppings")
-    for each_topping in toppings:
-        print(f"- {each_topping}")
+#8-14. Cars
+def car(manufacturer,model_name,**other_info):
+    other_info["manufacturer"] = manufacturer
+    other_info["model_name"] = model_name
+    return other_info
 
-build_sandwich("cheese","lettuce","tomatoes")
+first_car = car("Tesla","Model Y", wheels = 4, color = "blue", safe = True)
+print(first_car)
