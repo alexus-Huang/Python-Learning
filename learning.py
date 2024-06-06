@@ -1,14 +1,19 @@
-#9-3. User
-class User:
-    def __init__(self,first_name,last_name):
-        self.first_name = first_name
-        self.last_name = last_name
-    def describe_user(self):
-        print(f"User's information: \n-{self.first_name.title()}\n-{self.last_name.title()}")
-    def greet_user(self):
-        print(f"Hello {self.first_name.title()} {self.last_name.title()}")
+class Restaurant:
+    def __init__(self,restaurant_name,cuisine):
+        self.restaurant_name = restaurant_name
+        self.cuisine = cuisine
+        self.customers_served_alreaady = 0
+    
+    def restuarant_description(self):
+        print(f"{self.restaurant_name.title()} has a(n) {self.cuisine} cuisine")
+    
+    def customers_served(self,served_customers):
+        self.customers_served_alreaady += served_customers
 
-user_one = User("john","doe")
+my_restaurant = Restaurant("John's Restaurant","Asian")
 
-user_one.describe_user()
-user_one.greet_user()
+my_restaurant.customers_served(1)
+print(f"Customers served: {my_restaurant.customers_served_alreaady}")
+
+my_restaurant.customers_served(1)
+print(f"Customers served: {my_restaurant.customers_served_alreaady}")
