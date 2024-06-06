@@ -1,17 +1,14 @@
-#9-1. Restaurant
-class Restaurant:
-    def __init__(self,restaurant_name,cuisine_type):
-        self.restaurant_name = restaurant_name
-        self.cuisine_type = cuisine_type
+#9-3. User
+class User:
+    def __init__(self,first_name,last_name):
+        self.first_name = first_name
+        self.last_name = last_name
+    def describe_user(self):
+        print(f"User's information: \n-{self.first_name.title()}\n-{self.last_name.title()}")
+    def greet_user(self):
+        print(f"Hello {self.first_name.title()} {self.last_name.title()}")
 
-    def describe_restaurant(self):
-        print(f"Restaurant name: {self.restaurant_name}\nCusine type: {self.cuisine_type}")
-    def open_restaurant(self):
-        print(f"{self.restaurant_name} is now open!")
+user_one = User("john","doe")
 
-
-
-new_restaurant = Restaurant("John's restaurant","asian cuisine")
-new_restaurant.describe_restaurant()
-print(f"\nRestaurant name: {new_restaurant.restaurant_name}")
-new_restaurant.open_restaurant()
+user_one.describe_user()
+user_one.greet_user()
