@@ -1,19 +1,26 @@
-class Restaurant:
-    def __init__(self,restaurant_name,cuisine):
-        self.restaurant_name = restaurant_name
-        self.cuisine = cuisine
-        self.customers_served_alreaady = 0
+class Login:
+    def __init__(self,login_attempts):
+        self.login_attempts = login_attempts
     
-    def restuarant_description(self):
-        print(f"{self.restaurant_name.title()} has a(n) {self.cuisine} cuisine")
+    def login_attempt(self,increase):
+        self.login_attempts += increase
     
-    def customers_served(self,served_customers):
-        self.customers_served_alreaady += served_customers
+    def reset_login_attempts(self):
+        self.login_attempts = 0
 
-my_restaurant = Restaurant("John's Restaurant","Asian")
 
-my_restaurant.customers_served(1)
-print(f"Customers served: {my_restaurant.customers_served_alreaady}")
+new_login = Login(0)
 
-my_restaurant.customers_served(1)
-print(f"Customers served: {my_restaurant.customers_served_alreaady}")
+print(new_login.login_attempts)
+
+new_login.login_attempt(1)
+
+print(new_login.login_attempts)
+
+new_login.login_attempt(1)
+
+print(new_login.login_attempts)
+
+new_login.reset_login_attempts()
+
+print(new_login.login_attempts)
