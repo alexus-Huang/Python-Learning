@@ -1,8 +1,17 @@
-#8-14. Cars
-def car(manufacturer,model_name,**other_info):
-    other_info["manufacturer"] = manufacturer
-    other_info["model_name"] = model_name
-    return other_info
+#9-1. Restaurant
+class Restaurant:
+    def __init__(self,restaurant_name,cuisine_type):
+        self.restaurant_name = restaurant_name
+        self.cuisine_type = cuisine_type
 
-first_car = car("Tesla","Model Y", wheels = 4, color = "blue", safe = True)
-print(first_car)
+    def describe_restaurant(self):
+        print(f"Restaurant name: {self.restaurant_name}\nCusine type: {self.cuisine_type}")
+    def open_restaurant(self):
+        print(f"{self.restaurant_name} is now open!")
+
+
+
+new_restaurant = Restaurant("John's restaurant","asian cuisine")
+new_restaurant.describe_restaurant()
+print(f"\nRestaurant name: {new_restaurant.restaurant_name}")
+new_restaurant.open_restaurant()
