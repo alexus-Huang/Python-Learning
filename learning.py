@@ -1,12 +1,22 @@
-#9-6. Ice Cream Stand
-class IceCreamStand:
-    def __init__(self,*flavors) -> None:
-        self.flavors = flavors
+class User:
+    def __init__(self,first_name,last_name):
+        self.first_name = first_name
+        self.last_name = last_name
     
-    def menu(self):
-        print(f"Here are each flavors:")
-        for each_flavor in self.flavors:
-            print(f"{each_flavor.title()}")
-
-my_stand = IceCreamStand("vanilla","chocolate")
-my_stand.menu()
+    def full_name(self):
+        print(f"{self.first_name} {self.last_name}")
+    
+class Admin(User):
+    def __init__(self, first_name, last_name,*commands):
+        super().__init__(first_name, last_name)
+        self.commands = commands
+    
+    def commands(self):
+        print(f"{self.first_name} {self.last_name} has these privileges:")
+        for every_command in self.commands:
+            print(f"{every_command}")
+        
+new_admin = Admin("john","doe","delete","edit")
+print(new_admin.commands)
+print(new_admin.first_name)
+print(new_admin.last_name)
